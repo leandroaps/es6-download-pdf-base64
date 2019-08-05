@@ -1,11 +1,10 @@
 # es6-download-pdf-base64
-/**
- * Creates an anchor element `<a></a>` with
- * the base64 pdf source and a filename with the
- * HTML5 `download` attribute then clicks on it.
+Creates an anchor element `<a></a>` with the base64 pdf source and a filename with the HTML5 `download` attribute then clicks on it.
+
  * @param  {string} pdf
  * @return {void}
  */
+ 
 ```javascript
 const downloadPDF = pdf => {
   const source = `data:application/pdf;base64,${pdf}`;
