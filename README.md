@@ -6,6 +6,7 @@
  * @param  {string} pdf
  * @return {void}
  */
+```javascript
 const downloadPDF = pdf => {
   const source = `data:application/pdf;base64,${pdf}`;
   const link = document.createElement('a');
@@ -15,3 +16,4 @@ const downloadPDF = pdf => {
   link.download = file;
   link.click();
 };
+```
